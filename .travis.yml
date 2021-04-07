@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.16
+
+script:
+  - make build
+  - make install
+  - make test
+  - bash <(curl -s https://codecov.io/bash)

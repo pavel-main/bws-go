@@ -1,0 +1,5 @@
+coverage.txt
+
+# Binaries
+examples/multisig/multisig
+examples/simple/simple
